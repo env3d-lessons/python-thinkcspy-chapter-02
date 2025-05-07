@@ -1,21 +1,10 @@
-"""
-Lab 2b
-
-Objectives
-
-    Practice writing Python expressions,
-    Practice writing functions,
-    Pracitce using variables,
-    Practice writing functions with multiple lines,
-    Practice testing and debugging functions.
-    
-"""
 import math
 
 """
 Exercise 1
 
-In this course we will have two midterms. Assume that the maximum score on each is 100 points. 
+Let's create a function to calculate the average grade for 2 midterms. 
+Assume that the maximum score on each is 100 points. 
 Write a function averageMark that takes the grades a student achieved on the midterms 
 (out of 100) and calculates their average.
 """
