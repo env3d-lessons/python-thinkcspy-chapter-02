@@ -3,7 +3,8 @@
 
 **COMP115** is a foundational course designed to introduce students—both general learners and future computer science majors—to the core ideas of coding.
 
-To support deeper learning, each major chapter includes a **Challenge Exercise**. These challenges are designed to introduce key computer science concepts and practices beyond the basics.
+To support deeper learning, each major chapter includes a **Challenge Exercise**. 
+These challenges go beyond the basics to introduce key computer science concepts and professional practices.
 
 ## In this challenge, you will explore:
 
@@ -17,7 +18,7 @@ To support deeper learning, each major chapter includes a **Challenge Exercise**
   Organize your code by grouping related logic into reusable blocks.
 
 * **Automated Testing**
-  Understand how programmers test their code using test cases, just like in your textbook assignments.
+  Learn how programmers use test cases to verify their code, similar to what you've done in textbook assignments.
 
 * **Git & GitHub**
   Use version control to manage and submit your work. You'll learn how to upload and share code using GitHub.
@@ -31,7 +32,7 @@ Challenge Exercises are designed for students who wish to go **above and beyond*
 * These exercises are **optional**, but completing them demonstrates a deeper understanding of computer science concepts.
 * **Your grade will not be negatively affected** if you choose not to complete them.
 * However, to be eligible for an **A or A+** in the course, you are expected to complete at least some of the Challenge Exercises.
-* Without attempting them, the highest grade you can earn will be **capped at an A−**.
+* If you choose not to attempt any Challenge Exercises, your final grade will be capped at an A−.
 
 ---
 
@@ -62,7 +63,7 @@ print(a + b + c)
 This method directly interacts with the user but has some limitations.
 
 
-## The real programmers way
+## The Professional Way
 
 ```python
 def sum(a, b, c):
@@ -102,13 +103,13 @@ print(sum(1, 2, 3))
 
 4. **Replace `print()` with `return`**:
 
-   * So the function gives back a result rather than printing directly.
+   * This allows the function to return a result that can be used elsewhere, rather than printing directly.
 
 
 # Exercise 
 
-The file, main.py, contains functions where the output is incorrect.  Study the comments
-and re-write the function body so the program will produce the correct results.
+The file `main.py` contains functions with incorrect output.
+Study the comments and re-write the function body so the program will produce the correct results.
 
 You will also be introduced to the following ideas in professional *software development*
 
@@ -116,11 +117,11 @@ You will also be introduced to the following ideas in professional *software dev
  - Automated Testing
  - git
 
-## User Inteface
+## User Interface
 
 Each of the functions represents a small part of a bigger program.  You can see the entire
 program by running `python main.py` in the terminal and follow the prompt to open 
-the browser.  You can check each of your function by providing different inputs.
+the browser.  You can check each of your functions by providing different inputs.
 
 ## Automated Testing
 
