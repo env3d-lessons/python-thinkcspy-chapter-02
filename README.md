@@ -10,6 +10,9 @@ To support deeper learning, each major chapter includes a **Challenge Exercise**
 * **Visual Studio Code**
   Learn to use the same code editor trusted by professional developers.
 
+* **Working with Terminal**
+  Learn to work with the terminal to issue operating system commands.
+
 * **Functions**
   Organize your code by grouping related logic into reusable blocks.
 
