@@ -5,7 +5,7 @@
 
 To support deeper learning, each major chapter includes a **Challenge Exercise**. These challenges are designed to introduce key computer science concepts and practices beyond the basics.
 
-### In this challenge, you will explore:
+## In this challenge, you will explore:
 
 * **Visual Studio Code**
   Learn to use the same code editor trusted by professional developers.
@@ -24,7 +24,7 @@ To support deeper learning, each major chapter includes a **Challenge Exercise**
 
 These challenges not only build your skills but also give you a taste of the tools and practices used in real-world software development.
 
-### Grading for Challenge Exercises
+## Grading for Challenge Exercises
 
 Challenge Exercises are designed for students who wish to go **above and beyond** the general course expectations.
 
@@ -45,7 +45,6 @@ All computer programs follow the same basic pattern:
 2. **Process input**
 3. **Produce output**
 
----
 
 ## The Textbook Way
 
@@ -62,7 +61,6 @@ print(a + b + c)
 
 This method directly interacts with the user but has some limitations.
 
----
 
 ## The real programmers way
 
@@ -78,14 +76,13 @@ print(sum(1, 2, 3))
 * `return` produces the output.
 * We execute the function from the terminal, by typing the command `python main.py`
 
----
+
 
 ## Why Use Functions?
 
 * The **textbook way** only allows **one program per file**.
 * With functions, we can have many units of computation per file.
 
----
 
 ## Converting Textbook Code to a Function
 
@@ -107,21 +104,27 @@ print(sum(1, 2, 3))
 
    * So the function gives back a result rather than printing directly.
 
----
 
-## Notes
-
-In this lab, our focus is writing **functions** instead of interacting with users directly.
-This will help us test, reuse, and better structure our code.
-
----
-
-## Exercise 
+# Exercise 
 
 The file, main.py, contains functions where the output is incorrect.  Study the comments
-and re-write the function body so that it produces the correct results.
+and re-write the function body so the program will produce the correct results.
 
-You can check if you gotten everything correct by running `pytest` in the terminal
+You will also be introduced to the following ideas in professional *software development*
+
+ - User Interface
+ - Automated Testing
+ - git
+
+## User Inteface
+
+Each of the functions represents a small part of a bigger program.  You can see the entire
+program by running `python main.py` in the terminal and follow the prompt to open 
+the browser.  You can check each of your function by providing different inputs.
+
+## Automated Testing
+
+You can check if you have gotten everything correct by running `pytest` in the terminal
 before submitting.
 
 ## Submit

@@ -1,6 +1,7 @@
 {
   "name": "Python Development disable copilot",
   "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
+  "postCreateCommand": "pip install gradio",
   "postAttachCommand": "chmod 000 ~/.vscode-remote/extensions/github.copilot* && exit",
   "customizations": {
     "vscode": {
