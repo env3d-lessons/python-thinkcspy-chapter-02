@@ -1,7 +1,7 @@
 {
   "name": "Python Development with XVFB",
   "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
-  "postCreateCommand": "chmod 555 ~/.vscode-remote/extensions/",
+  "postAttachCommand": "chmod 555 ~/.vscode-remote/extensions/",
   "customizations": {
     "vscode": {
       "extensions": [
