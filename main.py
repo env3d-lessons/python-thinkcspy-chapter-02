@@ -107,14 +107,14 @@ if __name__ == "__main__":
         gr.Markdown("### Exercise 1: Average Mark")
         gr.Interface(fn=average_mark,
                      inputs=[gr.Number(label="Mark 1"), gr.Number(label="Mark 2")],
-                     outputs="number",
-                     live=True)
+                     flagging_mode="never",
+                     outputs="number")
 
         gr.Markdown("### Exercise 2: Convert to Percentage")
         gr.Interface(fn=convert_to_percentage,
                      inputs=[gr.Number(label="Score"), gr.Number(label="Max Score")],
-                     outputs="text",
-                     live=True)
+                     flagging_mode="never",
+                     outputs="text")
 
         gr.Markdown("### Exercise 3: Average Percentage of 2 Midterms")
         gr.Interface(fn=calculate_average,
@@ -122,8 +122,8 @@ if __name__ == "__main__":
                          gr.Number(label="Mark 1"), gr.Number(label="Max 1"),
                          gr.Number(label="Mark 2"), gr.Number(label="Max 2")
                      ],
-                     outputs="text",
-                     live=True)
+                     flagging_mode="never",
+                     outputs="text")
 
         gr.Markdown("### Exercise 4: Midterm Weighted (20%)")
         gr.Interface(fn=midterms_weighted,
@@ -131,20 +131,20 @@ if __name__ == "__main__":
                          gr.Number(label="Mark 1"), gr.Number(label="Max 1"),
                          gr.Number(label="Mark 2"), gr.Number(label="Max 2")
                      ],
-                     outputs="text",
-                     live=True)
+                     flagging_mode="never",
+                     outputs="text")
 
         gr.Markdown("### Exercise 5: Cone Surface Area")
         gr.Interface(fn=cone_surface_area,
                      inputs=[gr.Number(label="Radius (r)"), gr.Number(label="Height (h)")],
-                     outputs="text",
-                     live=True)
+                     flagging_mode="never",
+                     outputs="text")
 
         gr.Markdown("### Exercise 6: Chick Pea Can Pricing")
         gr.Interface(fn=calculate_price,
                      inputs=[gr.Number(label="Number of Cans")],
-                     outputs="text",
-                     live=True)
+                     flagging_mode="never",
+                     outputs="text")
 
         gr.Markdown("### Exercise 7: Haversine Distance")
         gr.Interface(fn=distance,
@@ -152,7 +152,7 @@ if __name__ == "__main__":
                          gr.Number(label="Latitude 1"), gr.Number(label="Longitude 1"),
                          gr.Number(label="Latitude 2"), gr.Number(label="Longitude 2")
                      ],
-                     outputs="text",
-                     live=True)
+                     flagging_mode="never",
+                     outputs="text")
 
     demo.launch()
