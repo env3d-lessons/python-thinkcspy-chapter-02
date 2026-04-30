@@ -10,7 +10,7 @@
         "ms-python.vscode-pylance"  // Pylance extension (optional, for better performance)        
       ],
       "settings": {
-        "python.pythonPath": "/usr/local/bin/python", // Path to Python interpreter
+        "python.defaultInterpreterPath": "/home/codespace/.python/current/bin/python", // Default Python interpreter path
         "python.terminal.launchArgs": [
           "-m",
           "gradio"

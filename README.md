@@ -22,50 +22,19 @@ print(a + b + c)
 * `input()` gathers input from the user.
 * `print()` produces the output.
 
-This method directly interacts with the user but has some limitations.
+This method directly interacts with the user.
 
 
-## The Professional Way
+## The "Function" Way
 
 ```python
 def sum(a, b, c):
     return a + b + c
-
-# This is where we actually invoke the function to execute
-print(sum(1, 2, 3))
 ```
 
-* `a`, `b`, and `c` are inputs to the function.
-* `return` produces the output.
-* We execute the function from the terminal, by typing the command `python main.py`
-
-
-
-## Why Use Functions?
-
-* The **textbook way** only allows **one program per file**.
-* With functions, we can have many units of computation per file.
-
-
-## Converting Textbook Code to a Function
-
-1. **Give your function a name**:
-
-   ```python
-   def my_function(...):
-   ```
-
-2. **Replace input() with parameters**:
-
-   * Move the inputs into the function arguments.
-
-3. **Indent the logic**:
-
-   * Write the processing steps inside the function body.
-
-4. **Replace `print()` with `return`**:
-
-   * This allows the function to return a result that can be used elsewhere, rather than printing directly.
+* `a`, `b`, and `c` are variables, but we do not use input()
+* `return` produces the output, but we do not use print()
+* The function gets used by a different part of the program, but within the function we are still dealing with the same concepts: variables and expressions.
 
 
 # Exercise 
@@ -82,7 +51,7 @@ You will also be introduced to the following ideas in professional *software dev
 ## User Interface
 
 Each of the functions represents a small part of a bigger program.  You can see the entire
-program by running `python main.py` in the terminal and follow the prompt to open 
+program by running `gradio main.py` in the terminal and follow the prompt to open 
 the browser.  You can check each of your functions by providing different inputs.
 
 ## Automated Testing
