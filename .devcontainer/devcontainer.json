@@ -11,6 +11,7 @@
       ],
       "settings": {
         "python.defaultInterpreterPath": "/home/codespace/.python/current/bin/python", // Default Python interpreter path
+        "python.interpreterPath": "/home/codespace/.python/current/bin/python",
         "python.terminal.launchArgs": [
           "-m",
           "gradio"
